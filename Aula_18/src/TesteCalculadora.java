@@ -6,7 +6,7 @@ public class TesteCalculadora {
 		System.out.println(Calculadora.subtrair(8,2));
 		System.out.println(Calculadora.multiplicar(2,5));
 		System.out.println(Calculadora.dividir(10,4));
-		System.out.println("Histórico:");
+		System.out.println("Histórico da calculadora:");
 		System.out.println(Calculadora.exibirHistorico());
 	}
 
