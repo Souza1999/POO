@@ -13,9 +13,9 @@ public class Animal {
 	}
 	
 	public String toString() {
-		String mensagem = 	"\nNome: " + nome + 
-							"\nPeso: " + peso +
-							"\nSom: " + emitirSom();
+		String mensagem = 	"\nNome do animal: " + nome + 
+							"\nPeso do animal: " + peso +
+							"\nSom do animal: " + emitirSom();
 		return mensagem;
 	}
 }
